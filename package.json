@@ -1,0 +1,20 @@
+{
+  "name": "test-typegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typegen": "xstate typegen '**/*.xstate.{ts,js}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1"
+  },
+  "devDependencies": {
+    "@xstate/cli": "^0.3.2",
+    "lodash": "^4.17.21",
+    "prettier": "^2.7.1",
+    "xstate": "^4.33.2"
+  }
+}
